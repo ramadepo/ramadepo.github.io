@@ -17,7 +17,7 @@
 <body>
 	<div class="container">
 		<div class="os-phrases" id="os-phrases">
-			<h2>Welcome</h2>
+			<h2>Welcome to Rama's Web</h2>
 			<div class="box">
 				<button class="cbutton cbutton--effect-novak">
 					<i class="cbutton__icon fa fa-fw fa-play"></i>
@@ -73,6 +73,7 @@
 						classie.add(el, 'cbutton--click');
 						onEndAnimation(classie.has(el, 'cbutton--complex') ? el.querySelector('.cbutton__helper') : el, function () {
 							classie.remove(el, 'cbutton--click');
+							window.location = "RamaIndex.html"
 						});
 					});
 				});

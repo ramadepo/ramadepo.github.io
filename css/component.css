@@ -236,40 +236,40 @@
 @-webkit-keyframes FadeIn { 
 	0% {
 		opacity: 0;
-		text-shadow: 0 0 50px rgb(255, 255, 255);
+		text-shadow: 0 0 50px rgb(177,118,232) ;
 	}
 	100% {
 		opacity: 0.8;
-		text-shadow: 0 0 1px rgb(255, 255, 255);
+		text-shadow: 0 0 1px rgb(177,118,232) ;
 	}
 }
 
 @-moz-keyframes FadeIn { 
 	0% {
 		opacity: 0;
-		text-shadow: 0 0 50px rgb(255, 255, 255);
+		text-shadow: 0 0 50px rgb(177,118,232) ;
 	}
 	100% {
 		opacity: 0.8;
-		text-shadow: 0 0 1px rgb(255, 255, 255);
+		text-shadow: 0 0 1px rgb(177,118,232) ;
 	}
 }
 
 @keyframes FadeIn { 
 	0% {
 		opacity: 0;
-		text-shadow: 0 0 50px rgb(255, 255, 255);
+		text-shadow: 0 0 50px rgb(177,118,232) ;
 	}
 	100% {
 		opacity: 0.8;
-		text-shadow: 0 0 1px rgb(255, 255, 255);
+		text-shadow: 0 0 1px rgb(177,118,232) ;
 	}
 }
 
 /* Bold words */
-.os-phrases h2:first-child .word1 {
+/* .os-phrases h2:first-child .word1 {
 	font-weight: 600;
-}
+} */
 
 
 /* ClickEffects */
@@ -280,7 +280,7 @@
 	padding: 0;
 	border: none;
 	background: none;
-	color: #ffffff;
+	color: rgb(177,118,232) ;
 	font-size: 1.4em;
 	overflow: visible;
 	-webkit-transition: color 0.7s;
@@ -291,7 +291,7 @@
 .cbutton.cbutton--click,
 .cbutton:focus {
 	outline: none;
-	color: #ffffff;
+	color:rgb(85, 39, 191);
 }
 
 .cbutton__icon {
@@ -531,7 +531,7 @@
 
 /* Novak */
 .cbutton--effect-novak::after {
-	background: rgb(255, 255, 255);
+	background: rgb(177,118,232) ;
 }
 
 .cbutton--effect-novak.cbutton--click::after {
