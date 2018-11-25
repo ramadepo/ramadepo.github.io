@@ -195,10 +195,51 @@
 			color: #8e8588;
 		}			
 	
-	#nav
-	{
-		display: none;
-	}
+		#nav
+		{
+		}
+	
+			#nav > ul > li
+			{
+				display: inline-block;
+			}
+			
+				#nav > ul > li:last-child
+				{
+					padding-right: 0;
+				}
+	
+				#nav > ul > li > a,
+				#nav > ul > li > span
+				{
+					display: block;
+					padding: 1em 1.5em;
+					letter-spacing: 1px;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-weight: 200;
+					font-size: 1em;
+					outline: 0;
+					color: #323338;
+				}
+	
+	
+				#nav > ul > li > a:hover
+				{
+					color: #FFF;
+				}
+	
+				#nav li.active a
+				{
+					background: #323338;
+					border-radius: 4px;
+					color: #FFF;
+				}
+	
+				#nav > ul > li > ul
+				{
+					display: none;
+				}
 	
 /*********************************************************************************/
 /* Main                                                                          */
